@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+:root {
+    --azul: #008cff;
+}
+
+h1 {
+    font-size: 24px !important;
+    display: inline-block !important;
+}
+
+.boton {
+    padding: .5em 1em;
+    color: white;
+    background: var(--azul);
+    cursor: pointer;
+    user-select: none;
+}
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
